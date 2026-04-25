@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>for Pasandida Aurat ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-page: #F8F1EC;
+    --bg-card: #FFFDFB;
+    --border-soft: #EAD9D0;
+    --text-primary: #2A2422;
+    --text-secondary: #8A7A72;
+    --serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+    --radius-lg: 18px;
+    --radius-md: 10px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+  body {
+    background:
+      radial-gradient(ellipse at top, #FBE6EC 0%, transparent 55%),
+      var(--bg-page);
+    font-family: var(--serif);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .ctd-wrap {
+    background: var(--bg-card);
+    border: 0.5px solid var(--border-soft);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem 1.5rem 2rem;
+    text-align: center;
+    max-width: 540px;
+    width: 100%;
+    margin: 1rem auto;
+    box-shadow: 0 20px 60px rgba(153, 53, 86, 0.08);
+  }
+  .ctd-heart {
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  .ctd-for {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 0 0 0.25rem;
+    letter-spacing: 0.04em;
+  }
+  .ctd-name {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 26px;
+    color: #993556;
+    margin: 0 0 2rem;
+  }
+  .ctd-line {
+    font-family: var(--serif);
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--text-primary);
+    margin: 0 auto 0.25rem;
+    max-width: 420px;
+  }
+  .ctd-aside {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin: 0 auto 2.25rem;
+    max-width: 420px;
+  }
+  .ctd-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 420px;
+    margin: 0 auto 2rem;
+  }
+  .ctd-cell {
+    padding: 1rem 0.25rem;
+    background: #FBEAF0;
+    border-radius: var(--radius-md);
+  }
+  .ctd-num {
+    font-size: 34px;
+    font-weight: 500;
+    color: #72243E;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .ctd-label {
+    font-size: 12px;
+    color: #993556;
+    margin-top: 8px;
+  }
+  .ctd-sign {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+  .ctd-sign-name {
+    color: #993556;
+  }
+
+  @keyframes ctd-heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.12); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem 0.75rem; }
+    .ctd-wrap {
+      padding: 2.75rem 1.25rem 2.25rem;
+      background: linear-gradient(180deg, #FFF6F9 0%, var(--bg-card) 60%);
+    }
+    .ctd-heart {
+      width: 38px;
+      height: 38px;
+      margin-bottom: 1.25rem;
+      filter: drop-shadow(0 2px 6px rgba(212, 83, 126, 0.35));
+      animation: ctd-heartbeat 1.6s ease-in-out infinite;
+    }
+    .ctd-for { font-size: 15px; }
+    .ctd-name { font-size: 30px; margin-bottom: 2.25rem; }
+    .ctd-line { font-size: 22px; }
+    .ctd-aside { font-size: 16px; margin-bottom: 2.5rem; }
+    .ctd-grid { gap: 7px; margin-bottom: 2.25rem; }
+    .ctd-cell {
+      padding: 1.25rem 0.25rem;
+      background: linear-gradient(160deg, #FCD9E4 0%, #F7BFD1 100%);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.6),
+        0 4px 12px rgba(153, 53, 86, 0.12);
+    }
+    .ctd-num { font-size: 42px; color: #5C1A30; }
+    .ctd-label {
+      font-size: 12px;
+      color: #8C2C4B;
+      margin-top: 10px;
+      letter-spacing: 0.03em;
+    }
+    .ctd-sign { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="ctd-wrap">
+  <svg class="ctd-heart" viewBox="0 0 24 24" fill="#D4537E" aria-hidden="true">
+    <path d="M12 21s-7-4.5-9.5-9C1 8.5 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4.5 4.5 8-2.5 4.5-9.5 9-9.5 9z"/>
+  </svg>
+
+  <p class="ctd-for">for</p>
+  <p class="ctd-name">Pasandida Aurat</p>
+
+  <p class="ctd-line">Until we meet for the first time</p>
+  <p class="ctd-aside">(for real this time, not in Anik Tower's Lift)</p>
+
+  <div class="ctd-grid" id="ctd-grid">
+    <div class="ctd-cell"><div class="ctd-num" id="ctd-d">--</div><div class="ctd-label">days</div></div>
+    <div class="ctd-cell"><div class="ctd-num" id="ctd-h">--</div><div class="ctd-label">hours</div></div>
+    <div class="ctd-cell"><div class="ctd-num" id="ctd-m">--</div><div class="ctd-label">minutes</div></div>
+    <div class="ctd-cell"><div class="ctd-num" id="ctd-s">--</div><div class="ctd-label">seconds</div></div>
+  </div>
+
+  <p class="ctd-sign">Yours, <span class="ctd-sign-name">Teddy Bear</span></p>
+</div>
+
+<script>
+  (function() {
+    var target = new Date('2026-05-14T03:53:00Z').getTime();
+    var dEl = document.getElementById('ctd-d');
+    var hEl = document.getElementById('ctd-h');
+    var mEl = document.getElementById('ctd-m');
+    var sEl = document.getElementById('ctd-s');
+    var grid = document.getElementById('ctd-grid');
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    function tick() {
+      var diff = target - new Date().getTime();
+      if (diff <= 0) {
+        grid.innerHTML = '<div style="grid-column: 1 / -1; font-family: var(--serif); font-size: 24px; color: #993556; padding: 1.5rem 0;">I\'m here.</div>';
+        return;
+      }
+      var days = Math.floor(diff / 86400000);
+      var hours = Math.floor((diff % 86400000) / 3600000);
+      var minutes = Math.floor((diff % 3600000) / 60000);
+      var seconds = Math.floor((diff % 60000) / 1000);
+      dEl.textContent = days;
+      hEl.textContent = pad(hours);
+      mEl.textContent = pad(minutes);
+      sEl.textContent = pad(seconds);
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  })();
+</script>
+
+</body>
+</html>
